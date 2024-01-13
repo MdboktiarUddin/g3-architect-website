@@ -63,7 +63,11 @@ padding-right: 70px;
     header{
         padding:20px;
     }
-    nav{
+    nav, .teams-container
+    {
         flex-direction: column;
+    }
+    .teams-image-container{
+        grid-template-columns: 1fr;
     }
 }

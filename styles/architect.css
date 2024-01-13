@@ -1,3 +1,52 @@
 h3{
     font-family: sans-serif;
+   
+}
+/*header styles*/
+header{
+    background-color: #e7c7a31a;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 2.8rem;
+    color:black;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.banner{
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+}
+.banner-title{
+
+}
+.button-primery{
+    background-color: orange;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+
+/*responsive media queries*/
+@media screen and (max-width:576px){
+    header{
+        padding:20px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }

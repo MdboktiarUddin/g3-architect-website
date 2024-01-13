@@ -39,6 +39,23 @@ nav li{
     font-size: 1.2rem;
     border-radius: 5px;
 }
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-content-title{
+    font-size: 45px;
+}
+.teams-image-container{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap:1.5rem;
+}
+.teams-content{
+padding-left: 70px;
+padding-right: 70px;
+}
+
 
 
 /*responsive media queries*/

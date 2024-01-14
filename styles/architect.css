@@ -86,7 +86,9 @@ padding: 30px;
     header{
         padding:20px;
     }
-    nav, .teams-container
+    nav,
+     .teams-container,
+     .facts-card-container
     {
         flex-direction: column;
     }
